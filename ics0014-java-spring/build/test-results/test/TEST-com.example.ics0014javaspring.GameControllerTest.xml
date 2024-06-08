@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ics0014javaspring.GameControllerTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2024-05-26T16:21:44" hostname="PLAYA" time="0.358">
+  <properties/>
+  <testcase name="testGetAll_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.08"/>
+  <testcase name="testGetGroupedByPublisher_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.008"/>
+  <testcase name="testGetByLanguage()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.072"/>
+  <testcase name="testGetGroupedByDeveloper_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.032"/>
+  <testcase name="testGetGroupedByDeveloper_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetByPublisherId()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.008"/>
+  <testcase name="testDeleteById_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetById_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.007"/>
+  <testcase name="testGetById_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.005"/>
+  <testcase name="testDeleteById_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetGroupedByLanguages_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetByDeveloperId()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.006"/>
+  <testcase name="testGetGroupedByLanguages_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetGroupedByTags_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.005"/>
+  <testcase name="testGetBySortedBudget_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testAddGame_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.036"/>
+  <testcase name="testGetAll_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetByTagId()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.006"/>
+  <testcase name="testUpdate_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetGroupedByPlatforms_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetGroupedByPlatforms_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.005"/>
+  <testcase name="testGetBySortedBudget_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.004"/>
+  <testcase name="testGetGroupedByPublisher_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.006"/>
+  <testcase name="testUpdate_Success()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.003"/>
+  <testcase name="testGetAll_NoContent()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.003"/>
+  <testcase name="testGetByPlatform()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.006"/>
+  <testcase name="testGetGroupedByTags_NotFound()" classname="com.example.ics0014javaspring.GameControllerTest" time="0.002"/>
+  <system-out><![CDATA[19:21:42.564 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.ics0014javaspring.GameControllerTest]: GameControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:21:42.640 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.ics0014javaspring.Ics0014JavaSpringApplication for test class com.example.ics0014javaspring.GameControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-05-26T19:21:42.923+03:00  INFO 4540 --- [ics0014-java-spring] [    Test worker] c.e.i.GameControllerTest                 : Starting GameControllerTest using Java 21.0.2 with PID 4540 (started by petro in C:\Users\petro\IdeaProjects\ics0014-java-spring)
+2024-05-26T19:21:42.924+03:00  INFO 4540 --- [ics0014-java-spring] [    Test worker] c.e.i.GameControllerTest                 : The following 1 profile is active: "test"
+2024-05-26T19:21:44.719+03:00  INFO 4540 --- [ics0014-java-spring] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-26T19:21:44.719+03:00  INFO 4540 --- [ics0014-java-spring] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-26T19:21:44.726+03:00  INFO 4540 --- [ics0014-java-spring] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-26T19:21:44.733+03:00  INFO 4540 --- [ics0014-java-spring] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 13 ms
+2024-05-26T19:21:44.767+03:00  INFO 4540 --- [ics0014-java-spring] [    Test worker] c.e.i.GameControllerTest                 : Started GameControllerTest in 2.04 seconds (process running for 2.804)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\petro\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.13\979ce25f7d3096a2e82214ba7dc972a05ce7a171\byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
